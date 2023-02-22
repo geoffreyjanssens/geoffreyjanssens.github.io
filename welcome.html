@@ -1,0 +1,1202 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Geoffrey Janssens</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- Icomoon Icon Fonts-->
+		<link rel="stylesheet" href="css/icomoon.css">
+		<!-- Bootstrap  -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<!-- Flexslider  -->
+		<link rel="stylesheet" href="css/flexslider.css">
+		<!-- Flaticons  -->
+		<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+		<!-- Owl Carousel -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<!-- Theme style  -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Modernizr JS -->
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+		
+		<!-- Pour faire marcher du latex -->
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+		<!-- Script pour afficher/masquer une liste-->
+		<script type="text/javascript">
+			function toggleMe(a){
+				var e=document.getElementById(a);
+				if(!e)return true;
+				if(e.style.display=="none"){
+					e.style.display="block";
+				}
+				else{
+					e.style.display="none";
+				}
+				return true;
+			}
+		</script>
+
+		
+	</head>
+	<body>
+		<div id="colorlib-page">
+			<div class="container-wrap">
+				<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+				<!-- DOET DE LINKER BALK -->
+				<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+					<div class="text-center">
+						<div class="author-img" style="background-image: url('images/foto antwerpen 26-12-2017.jpg'); background-position-y: 0px;"></div>
+						<h1 id="colorlib-logo"><a href="index.html">Geoffrey Janssens</a></h1>
+					</div>
+					<nav id="colorlib-main-menu" role="navigation" class="navbar">
+						<div id="navbar" class="collapse">
+							<ul>
+								<li class="active">
+									<a href="#" data-nav-section="home">Growing tree</a>
+								</li>
+								<li>
+									<a href="#" data-nav-section="about">About</a>
+								</li>
+								<li>
+									<a href="#" data-nav-section="research">Research</a>
+								</li>
+								<li id="teaching" class="colorlib-main-submenu">
+									<a href="#">Teaching</a>
+									<ul>
+										<li>
+											<a href="#" data-nav-section="teaching_2018_2019">2018-2019</a>
+										</li>
+										<li>
+											<a href="#" data-nav-section="teaching_2014_2017">2014-2017</a>
+										</li>
+										<li>
+											<a href="#" data-nav-section="teaching_2012_2014">2012-2014</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" data-nav-section="co-authors">Mathematical family</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</aside>
+				<!-- Wat er rechts verschijnt bij HOME -->
+				<div id="colorlib-main">
+					<section id="colorlib-hero" class="js-fullheight" data-section="home">
+						<div class="flexslider js-fullheight">
+							<ul class="slides">
+								<li style="background-image: url(images/mathematical-tree.png);">
+									<div class="overlay"></div>
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text" 
+											     style="width:100%;">
+											</div>
+										</div>
+									</div>
+								</li>
+								<li style="background-image: url(images/stap1MHC.jpeg);">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text" 
+										 style="width:100%;">
+									</div>
+								</li>
+								<li style="background-image: url(images/stap2MH.jpg);">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text" 
+										 style="width:100%;">
+									</div>
+								</li>
+								<li style="background-image: url(images/stap3MHSS.jpg);">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text" 
+										 style="width:100%;">
+									</div>
+								</li>
+								<li style="background-image: url(images/stap4MHC.jpeg);">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text" 
+										 style="width:100%;">
+									</div>
+								</li>
+								<li style="background-image: url(images/stap5MHC.jpeg);">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text" 
+										 style="width:100%;">
+									</div>
+								</li>
+								<li style="background-image: url(images/stap6MHC.jpeg);">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text" 
+										 style="width:100%;">
+									</div>
+								</li>
+								<li style="background-image: url(images/stap7MHdwG2.jpg);">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text" 
+										 style="width:100%;">
+									</div>
+								</li>
+								<li style="background-image: url(images/mathematical-tree.png);">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text" 
+										 style="width:100%;">
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+
+						
+					</section>
+					<!-- Wat er rechts verschijnt bij ABOUT -->
+					<section class="colorlib-about" class="js-fullheight" data-section="about">
+						<div class="colorlib-narrow-content js-fullheight	">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+										<h2>
+											About Me	
+										</h2>
+										<p>
+											I am an FWO postdoctoral fellow in the Algebra Research Group at the Free University of Brussels - VUB. I obtained my PhD there on the 19th of May 2017 under the 
+											supervision of <a href="http://homepages.vub.ac.be/~efjesper/" target="_blank">Eric Jespers (Brussels, VUB)</a> and Alexey Gordienko (Moscow, MSTUCA). Currently, and till the 16th of July,
+											I am connected with the university of Paris (Diderot), visiting <a href="https://webusers.imj-prg.fr/~bernhard.keller/" target="_blank">Bernhard Keller</a>.
+											<ul>
+												<li>You can download my CV <a target="_blank" href="CV GJ homepage.pdf">here</a> (last updated on 4/07/2021)</li>
+											</ul>
+										</p>
+										<p>
+											You can find me here:
+										</p>
+										<div class="col-xs-6">
+											<dl>
+												<dd>
+													<address>
+														<b>Universit&eacute de Paris</b><br/>
+														UFR de Math&eacute;matiques<br/>
+														B&acirctiment Sophie Germain<br/>
+														5 rue Thomas Mann<br/>
+														75205 Paris CEDEX 13<br/>
+														France
+														<br/>
+														<br/>
+														<b>Office:</b> 627<br/> 
+													</address>
+												</dd>
+											</dl>
+										</div>
+										<div class="col-xs-6" style="padding-right:20px; padding-bottom:20px;">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.634203271604!2d2.379221615344445!3d48.827040479284406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67221a1364bd3%3A0x7521be5a52de9319!2sUFR%20Math%C3%A9matiques%20%E2%80%93%20Universit%C3%A9%20Paris%20Diderot!5e0!3m2!1snl!2sbe!4v1583270489118!5m2!1snl!2sbe" 
+													width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="">
+											</iframe>
+										</div>
+										<p>
+											Don't hesitate to jump by or to contact me by email: <a href="mailto:geoffrey.janssens@vub.be">geoffrey.janssens@vub.be</a>
+										</p>
+									</div>
+									<p style="padding-top: 0.1px; padding-bottom: 0px">
+										<hr class="textcenter" style="width: 60%;"/>
+									</p>
+									<div class="row">
+										<h2>News</h2>
+										<ul>
+											<li>
+											 My bachelor student Robynn Corveleyn presented on 29th of january 2021 with conviction and aesthetically <a target="_blank" href="RobynnPainting.png">her work</a> (on expliticising and optimizing the algorithm behind the proof of a <a href="https://www.sciencedirect.com/science/article/pii/0022404992901386" target="_blank"> theorem of Wilson-Zelmanov</a> which translates a law on a group into a polynomial identity of the associated Lie algebra via Lazard's construction). Proficiat! 
+											</li>
+											<li>
+												Happy that <a href="http://homepages.vub.ac.be/~dtemmerm/" target="_blank"> Doryan Temmerman</a> will be able to continue his algebraic journey with a post-doc at the University of Hasselt. 
+											</li>
+											<li>
+											On 31st of january 2020 my two bachelor students, Julie Symons and Maxime Wybouw, defended passionately their work (on <a href="https://arxiv.org/abs/1411.0848" target="_blank"> a paper</a> of S. Eberhard on commuting probabilities, respectively on the (classical) Schur-Weyl duality). Nice to see such a passion grow! Looking forward to see their next mathematical steps!
+											</li>
+											<li> 
+												On 24th of May 2019 <a href="http://homepages.vub.ac.be/~dtemmerm/" target="_blank"> Doryan Temmerman</a>, my first mathematical son, defended his Ph.D with glance and originality! Congratz!! 
+											</li>
+											<li> 
+												We are organising a conference <a href="http://homepages.vub.ac.be/~abachle/gras2019/" target="_blank"> "Groups, Rings and associated structures" </a> in Spa, Belgium, June 09-15, 2019. 
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p style="padding-top: 0.1px; padding-bottom: 0px">
+										<hr class="textcenter" style="width: 60%;"/>
+									</p>
+					</section>
+					
+					<section class="colorlib-education" data-section="research">
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<h2> 
+									Research interests
+								</h2>
+								<p>
+									My research lies in the areas of non-commutative ring theory, (geometric) group theory, classical
+									representation theory (of finite groups) and representation theory of finite dimensional
+									algebras. Questions bridging several of these areas are those attracting my attention the most. 
+									In an explicit or sometimes implicit way my research is centred around the natural problem of 
+									distinguishing groups or algebras by means of invariants. The latter can be internal data (such 
+									as in group or ring theory) or external structures where for example the group or algebra under 
+									consideration acts on (such as in representation theory or geometric group theory). 
+								</p>
+							</div>
+							<p style="padding-top: 0.1px; padding-bottom: 0px">
+								<hr class="textcenter" style="width: 60%;"/>
+							</p>
+							<div class="row">
+								<h2>Preprints</h2>
+								<ol reversed=true, start="11">
+									<li style="padding-bottom: 5px;">
+										Glider Representation Rings with a view on distinguishing groups, 2019, 34 pages<br/>
+										joint with F. Caenepeel <br/>
+										<a href="https://arxiv.org/abs/1911.11733" target="_blank" style="color: #778899; text-decoration: none;" >arXiv </a> &#124;
+										<a href=#, onClick="return toggleMe('glider')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="glider", style="display:none">
+											<dd>
+												▸ <em> ﻿Let $G$ be a finite group. The main aim of this paper is to further develop the youngly introduced glider representation theory 
+												and to kick start its connections with classical representation theory (over $\mathbb{C}$).  Firstly, we obtain that the symmetric monoidal 
+												structure of the category $\text{Glid}_1(G)$ of glider representations of length $1$ of $G$ determines $G$ uniquely. More precisely we show 
+												that $\text{Glid}_1(G)$ is somehow a concrete model of $\left( \text{Rep}_{\mathbb{C}}(G), F\right)$, the $G$-representations together with 
+												a fiber functor $F$. Thenceforth we introduce and investigate the (reduced) glider representation ring $R(\widetilde{G})$ and its finitery versions $R_d(\widetilde{G})$. Hereby we obtain a short exact sequence relating the semisimple part of $\mathbb{Q} \otimes_{\mathbb{Z}}R_1(\widetilde{G})$ in a precise way to the representations of $G$ (and subnormal subgroups in $G$). For instance if $G$ is nilpotent of class $2$, the aforementioned sequence yields that $\mathbb{Q} \otimes_{\mathbb{Z}}R(\widetilde{G})$ contains as a direct summand $\mathbb{Q}(H^{ab})$, the rational group algebra of the abelianization of $H$, for every subgroup $H$ of $G$. 
+												We end with pointing out applications on distinguishing isocategorical groups. </em> 
+											</dd>
+										</div>  
+									</li>
+									<li style="padding-bottom: 5px;">
+										Higher modular groups as amalgamated products and a dichotomy for integral group rings, 2019, 33 pages<br/>
+										joint with A. Bächle, E. Jespers, A. Kiefer and D. Temmerman <br/>
+										<a href="http://arxiv.org/abs/1811.12226" target="_blank" style="color: #778899; text-decoration: none;" >arXiv </a> &#124;
+										<a class="pub", href=#, onClick="return toggleMe('amalgam')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="amalgam", style="display:none">
+											<dd>
+												▸ <em> ﻿We show that $\mathcal{U}(\mathbb{Z}G)$, the unit group of the integral group ring $\mathbb{Z} G$, either
+												satisfies Kazhdan's property (T) or is, up to commensurability, a non-trivial amalgamated product, in case $G$ is a finite group 
+												satisfying some mild conditions. Crucial in the proof is the construction of amalgamated decompositions of the elementary group $\operatorname{E}_2(\mathcal{O})$, 
+												where $\mathcal{O}$ is an order in a rational division algebra. A major step is to introduce subgroups $\operatorname{E}_2(\Gamma_n(\mathbb{Z}))$ inside the 
+												so-called higher modular groups $\operatorname{SL}_+(\Gamma_n(\mathbb{Z}))$, which are discrete subgroups of certain $2 \times 2$ matrix groups with 
+												entries in a Clifford algebra. The groups $\operatorname{E}_2(\Gamma_n(\mathbb{Z}))$ mimic the elementary groups in linear groups over rings. We prove that 
+												$\operatorname{E}_2(\Gamma_n(\mathbb{Z}))$ has in general a non-trivial decomposition as a free product with amalgamated subgroup $\operatorname{E}_2(\Gamma_{n-1}(\mathbb{Z}))$. 
+												From this we obtain that also the higher modular groups do have a very clearly structured amalgam decompositions in low dimensions.</em> 
+										   </dd>
+									   </div>  
+									</li>
+								</ol>
+							</div>
+							<p style="padding-top: 0.1px; padding-bottom: 0px">
+								<hr class="textcenter" style="width: 60%;"/>
+							</p>
+							<div class="row">
+								<h2>Published or accepted papers</h2>
+								<ol reversed=true>		
+									<li style="padding-bottom: 5px;">
+										Codimension Growth of Lie algebras with a generalized action, 2021,<em> Proc. Amer. Math. Soc. </em> , in press, 12 pages<br/>
+										<a href="https://arxiv.org/abs/1911.12335" target="_blank" style="color: #778899; text-decoration: none;" >arXiv </a> &#124;
+										<a class="pub", href=#, onClick="return toggleMe('LieExp')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="LieExp", style="display:none">
+											<dd> 
+												▸ <em> Let $L$ be a finite dimensional Lie $F$-algebra endowed with a generalized action by an associative algebra $H$. 
+												We investigate the exponential growth rate of the sequence of H-graded codimensions $C_n^H(L)$ of $L$ which is a measure for the number 
+												of non-polynomial $H$-identities of $L$. More precisely, we construct the first example of an $S$-graded Lie algebra having a non-integer, 
+												even irrational, exponential growth rate $\lim_{n \rightarrow \infty} \sqrt[n]{c_n^S(L)}$. Hereby $S$ is a semigroup and an exact value is given. On the other hand, 
+												returning to general $H$, if $L$ is semisimple and also semisimple for the $H$-action we prove the analog of Amitsur's conjecture (i.e. $\lim_{n \rightarrow \infty} \sqrt[n]{c_n^H(L)} \in \mathbb{Z}$).
+												Moreover if $H=FS$ is a semigroup algebra the semisimplicity on $L$ can be dropped which is in strong contract to the associative setting.</em> 
+											</dd>
+										</div>  
+									</li>						
+									<li style="padding-bottom: 5px;">
+										Abelianization and fixed point properties of linear groups and units in integral group rings, <em> Math. Nachr.</em> , in press, 56 pages<br/>
+										joint with A. Bächle, E. Jespers, A. Kiefer and D. Temmerman <br/>
+										<a href="http://arxiv.org/abs/1811.12184" target="_blank" style="color: #778899; text-decoration: none;" >arXiv </a> &#124;
+										<a class="pub", href=#, onClick="return toggleMe('abPaper')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="abPaper", style="display:none">
+											<dd>
+												▸ <em> ﻿Fixed point properties and the abelianization of arithmetic subgroups $\Gamma$ of $\operatorname{SL}_n(D)$ and its elementary 
+												subgroup $\operatorname{E}_n(D)$ are well understood except in the degenerate case of lower rank, i.e. $n=2$ and $\Gamma = \operatorname{SL}_2(\mathcal{O})$
+												with $\mathcal{O}$ an order in a division algebra $D$ with a finite number of units. In this setting we determine Serre's property
+												$\operatorname{FA}$ for $\operatorname{E}_2(\mathcal{O})$ and its subgroups of finite index. We construct a generic and computable exact sequence 
+												describing its abelianization, affording a closed formula for its $\mathbb{Z}$-rank. Thenceforth, we investigate applications in 
+												integral representation theory of finite groups. We obtain a characterization of when the unit group $\mathcal{U}(\mathbb{Z}G)$ of 
+												the integral group ring $\mathbb{Z} G$ satisfies Kazhdan's property $(\operatorname{T})$, both in terms of the finite group $G$ and 
+												in terms of the simple components of the semisimple algebra $\mathbb{Q}G$. Furthermore, it is shown that for $\mathcal{U}( \mathbb{Z} G)$ 
+												this property is equivalent to a hereditary version of property $\operatorname{FA}$, denoted $\operatorname{HFA}$, and even the significantly
+												weaker property $\operatorname{FAb}$ (i.e. every subgroup of finite index has finite abelianization). A crucial step for this is a reduction to 
+												arithmetic groups $\operatorname{SL}_n(\mathcal{O})$ and finite groups $G$ which have the so-called cut property. 
+												For such groups $G$ we describe the simple epimorphic images of $\mathbb{Q} G$. </em> 
+											</dd>
+										</div>  
+									</li>
+									<li style="padding-bottom: 5px;">
+										A glimpse into the Asymptotics of polynomial identities, <em> Nieuw Arch. Wiskd.</em> (5) 18 (2017), no. 1, 60-64 <br/>
+										<a href="http://homepages.vub.ac.be/~geofjans/artikelNAW.pdf" target="_blank" style="color: #778899; text-decoration: none;">Journal </a> &#124;
+										<a class="pub", href=#, onClick="return toggleMe('surveyNAW')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="surveyNAW", style="display:none">
+											<dd>
+												▸ <em> This a survey paper on the most significant results in the combinatorial theory of polynomial identities.</em> 
+											</dd>
+										</div>  
+									</li>
+									<li style="padding-bottom: 5px;">
+										Free products in the unit group of the integral group ring of a finite group, <em> Proc. Amer. Math. Soc.</em> 145 (2017), no. 7, 2771-2783<br/>
+										joint with E. Jespers and D. Temmerman <br/>
+										<a href="http://arxiv.org/abs/1607.02429" target="_blank" style="color: #778899; text-decoration: none;" >arXiv </a> &#124;
+										<a href="http://www.ams.org/journals/proc/2017-145-07/S0002-9939-2017-13631-4/home.html" target="_blank" style="color: #778899; text-decoration: none;">Journal </a> &#124;
+										<a class="pub", href=#, onClick="return toggleMe('FreeBovdi')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="FreeBovdi", style="display:none">
+											<dd>
+												▸ <em> ﻿Let $G$ be a finite group and let $p$ be a prime. We continue  the search for  generic constructions of free products and 
+												free monoids  in the unit group  $\mathcal{U}(\mathbb{Z}G)$ of the integral group ring $\mathbb{Z} G$. For a nilpotent group $G$ with a 
+												non-central element $g$ of order $p$, explicit generic constructions are given of two periodic units $b_1$ and $b_2$ in 
+												$\mathcal{U}(\mathbb{Z}G)$ such that $\langle b_1 , b_2\rangle =\langle b_1\rangle \star \langle b_2 \rangle =\mathbb{Z}_p \star \mathbb{Z}_{p}$, 
+												a free product of two cyclic groups of prime order. Moreover, if $G$ is  nilpotent of class $2$ and $g$ has order $p^n$, then also concrete 
+												generators for  free  products $\mathbb{Z}_{p^k} \star \mathbb{Z}_{p^m}$ are constructed (with $1\leq k,m\leq n $). As an application, for finite nilpotent 
+												groups,  we obtain earlier results of Marciniak-Sehgal and Goncalves-Passman. Further, for an arbitrary finite group $G$ we give 
+												generic constructions of  free monoids in $\mathcal{U}(\mathbb{Z}G)$ that generate an infinite solvable subgroup.</em> 
+											</dd>
+										</div>  
+									</li>
+									<li style="padding-bottom: 5px;">
+										A reduction theorem for $\tau$-rigid modules, <em> Math. Z.</em> (2018), 1-37<br/>
+										joint with F. Eisele and T. Raedschelders <br/>
+										
+										<a href="http://arxiv.org/abs/1603.04293" target="_blank" style="color: #778899; text-decoration: none;" >arXiv </a> &#124;
+										<a href="https://link.springer.com/article/10.1007/s00209-018-2067-4?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst" target="_blank" style="color: #778899; text-decoration: none;">Journal (open access)</a> &#124;
+										 <a target="_blank" href="tautilting.g">GAP-code</a> &#124;
+										<a class="pub", href=#, onClick="return toggleMe('tauTilting')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="tauTilting", style="display:none">
+											<dd>
+												▸ <em> We prove a theorem which gives a bijection between the support $\tau$-tilting modules over a given finite-dimensional algebra
+												A and the support τ-tilting modules over $A/I$, where $I$ is the ideal generated by the intersection of the center of $A$ and the radical of $A$. 
+												This bijection is both explicit and well-behaved. We give various corollaries of this, with a particular focus on blocks of group rings of 
+												finite groups. In particular we show that there are $\tau$-tilting finite wild blocks with more than one simple module. We then go on to classify 
+												all support $\tau$-tilting modules for all algebras of dihedral, semidihedral and quaternion type, as defined by Erdmann, which include all tame
+												blocks of group rings. Note that since these algebras are symmetric, this is the same as classifying all basic two-term tilting complexes,
+												and it turns out that a tame block has at most $32$ different basic two-term tilting complexes. We do this by using the aforementioned 
+												reduction theorem, which reduces the problem to ten different algebras only depending on the ground field $k$, all of which happen to be 
+												string algebras. To deal with these ten algebras we give a combinatorial classification of all $\tau$-rigid modules over
+												(not necessarily symmetric) string algebras</em> 
+											</dd>
+										</div>  
+									</li>
+									<li style="padding-bottom: 5px;">
+										The Polynomial Part of the Codimension Growth of Affine PI algebras, <em> Adv. Math.</em> 309 (2017), 487-511.<br/>
+										joint with E.Aljadeff and Y.Karasik <br/>
+										<a href="http://arxiv.org/abs/1510.08782" target="_blank" style="color: #778899; text-decoration: none;" >arXiv </a> &#124;
+										<a href="http://www.sciencedirect.com/science/article/pii/S0001870816300159" target="_blank" style="color: #778899; text-decoration: none;">Journal </a> &#124;
+										<a class="pub", href=#, onClick="return toggleMe('Poly')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="Poly", style="display:none">
+											<dd>
+												▸ <em> Let $F$ be a field of characteristic zero and $W$ be an associative affine $F$-algebra satisfying a polynomial identity (PI). 
+												The codimension sequence associated to $W$, $c_n(W)$, is known to be of the form $\theta(cn^td^n)$, where $d$ is the well known (PI) exponent of $W$. 
+												In this paper we establish an algebraic interpretation of the polynomial part (the constant $t$) by means of Kemer's theory. In particular, 
+												we show that in case $W$ is a basic algebra, then $t=\frac{d-q}{2}+s$, where $q$ is the number of simple component in $W/J(W)$ and $s+1$ is
+												the nilpotency degree of $J(W)$. Thus proving a conjecture of Giambruno.</em> 
+											</dd>
+										</div>  
+									</li>
+									<li style="padding-bottom: 5px;">
+										Semigroup graded algebras and graded PI-exponent, <em> Israel J. Math.</em> 220 (2017), no. 1, 387-452.<br/>
+										joint with A.Gordienko and E. Jespers <br/>
+										<a href="http://arxiv.org/abs/1511.01860" target="_blank" style="color: #778899; text-decoration: none;" >arXiv </a> &#124;
+										<a href="https://link.springer.com/article/10.1007/s11856-017-1521-z" target="_blank" style="color: #778899; text-decoration: none;">Journal </a> &#124;
+										<a class="pub", href=#, onClick="return toggleMe('SemiPI')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="SemiPI", style="display:none">
+											<dd>
+												▸ <em> ﻿Let $S$ be a semigroup. We study the structure of graded-simple $S$-graded algebras $A$ and the exponential rate
+												$\operatorname{PIexp}^{S}(A) := \lim\limits_{n \rightarrow \infty} \sqrt[n]{c_n^{S}(A)}$ of growth of 
+												codimensions $c_n^{S}(A)$ of their graded polynomial identities. This is of great interest since such algebras 
+												can have non-integer $\operatorname{PIexp}^{S}(A)$ despite being finite dimensional and associative. In addition, such algebras 
+												can have a non-trivial Jacobson radical $J(A)$. All this is in strong contrast with the case when $S$ is a group since in the group case 
+												$J(A)$ is trivial, $\operatorname{PIexp}^{S}(A)$ is always integer and, if the base field is algebraically closed, then 
+												$\operatorname{PIexp}^{S}(A)$ equals $\operatorname{dim} A$. Without any restrictions on the base field $F$, we classify graded-simple $S$-graded 
+												algebras $A$ for a class of semigroups $S$ which is complementary to the class of groups. We explicitly describe the structure of $J(A)$ showing that $J(A)$ 
+												is build up of pieces of a maximal $S$-graded semisimple subalgebra of $A$ which turns out to be simple. When $F$ is algebraically closed, 
+												we get an upper bound for $\mathop{\overline\lim}_{n\to\infty}\sqrt[n]{c_n^{S}}(A)$. If $A/J(A)\cong M_2(F)$ 
+												and $S$ is a right zero band, we show that this upper bound is sharp and $\operatorname{PIexp}^{S\text{-}\mathrm{gr}}(A)$ indeed exists. 
+												In particular, we present an infinite family of graded-simple algebras $A$ with arbitrarily large non-integer
+												$\operatorname{PIexp}^{S}(A)$.</em> 
+											</dd>
+										</div>  
+									</li>
+									<li style="padding-bottom: 5px;">
+										<span style="white-space: nowrap;">$\mathbb{Z}$S<sub>n</sub></span>-modules and polynomial identities with integer coefficients, <em> Int. J. Algebra Comput.</em> 23 (2013), no. 8, 1925-1943.<br/>
+										joint with A.Gordienko <br/>
+										<a href="http://arxiv.org/abs/1307.0733" target="_blank" style="color: #778899; text-decoration: none;" >arXiv </a> &#124;
+										<a href="http://dx.doi.org/10.1142/S0218196713500513" target="_blank" style="color: #778899; text-decoration: none;">Journal </a> &#124;
+										<a class="pub", href=#, onClick="return toggleMe('IntegerPI')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="IntegerPI", style="display:none">
+											<dd>
+												▸ <em> ﻿We show that, like in the case of algebras over fields, the study of multilinear polynomial identities of unitary rings can be
+												reduced to the study of proper polynomial identities. In particular, the factors of series of $\mathbb{Z}S_n$-submodules in the 
+												$\mathbb{Z}S_n$-modules of multilinear polynomial functions can be derived by the analog of Young's (or Pieri's) rule from the factors of 
+												series in the corresponding  $\mathbb{Z}S_n$-modules of proper polynomial functions. As an application, we calculate the codimensions and a
+												basis of multilinear polynomial identities of unitary rings of upper triangular $2\times 2$ matrices and infinitely generated Grassmann
+												algebras over unitary rings. In addition, we calculate the factors of series of $\mathbb{Z}S_n$-submodules for these algebras. Also we 
+												establish relations between codimensions of rings and codimensions of algebras and show that the analog of Amitsur's conjecture holds 
+												in all torsion-free rings, and all torsion-free rings with $1$ satisfy the analog of Regev's conjecture.</em> 
+											</dd>
+										</div>  
+									</li>
+									<li style="padding-bottom: 5px;">
+										Primitive Central Idempotents of Rational Group Algebras, <em> J. Algebra Appl.</em> 12 (2013), no. 1, 125-130.<br/>
+										<a href="http://arxiv.org/abs/1306.5306" target="_blank" style="color: #778899; text-decoration: none;" >arXiv </a> &#124;
+										<a href="http://dx.doi.org/10.1142/S0219498812501307" target="_blank" style="color: #778899; text-decoration: none;">Journal </a> &#124;
+										<a class="pub", href=#, onClick="return toggleMe('PCI')" style="color: #778899; text-decoration: none;"> ▸ Abstract </a>
+										<div id="PCI", style="display:none">
+											<dd>
+												▸ <em> We give a description of the primitive central idempotents of the rational group algebra $\mathbb{Q}G$ of a finite group $G$. Such a 
+												description is already investigated by Jespers, Olteanu and del Río, but some unknown scalars are involved. Our description also gives 
+												answers to their questions.</em> 
+											</dd>
+										</div>  
+									</li>
+								</ol>
+								
+								My arXiv profile can be found <a href="https://arxiv.org/search/math?query=Janssens%2C+Geoffrey&searchtype=author&abstracts=show&order=-announced_date_first&size=50" target="_blank" style="color: #778899; text-decoration: none;" >here </a>  and my Google Scholar profile is <a href="https://scholar.google.com/citations?user=wbIIWW0AAAAJ&hl=en" target="_blank" style="color: #778899; text-decoration: none;" >here </a>.
+							</div>
+							
+	
+											
+											
+							<p style="padding-top: 0.1px; padding-bottom: 0px">
+								<hr class="textcenter" style="width: 60%;"/>
+							</p>
+									
+							<div class="row">		
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="fancy-collapse-panel">
+										<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+											
+											
+											<div class="panel panel-default">
+												<div class="panel-heading" role="tab" id="headingFour">
+													<h4 class="panel-title">
+														<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+															Theses
+														</a>
+													</h4>
+												</div>
+												<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+													<div class="panel-body">
+														<ul>
+															<li style="padding-bottom: 5px;">
+																Identities of Affine Algebras and their Asymptotic Behaviour<br/>
+																Ph.D thesis<br/>
+																CCC Productions, 2017, 201 pp, ISBN: 9789492312396<br/>
+																<a href="http://homepages.vub.ac.be/~geofjans/PhDthesisGeoffreyJanssens.pdf" target="_blank">download (pdf)</a>
+															</li>
+															<li style="padding-bottom: 5px;">
+																The Isomorphism Problem for Integral Group Rings of Finite Groups<br/>
+																Master Thesis<br/>
+																Vrije Universiteit Brussel, 2012<br/>
+																<a href="http://homepages.vub.ac.be/~geofjans/thesis.pdf" target="_blank">download (pdf)</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading" role="tab" id="headingFive">
+													<h4 class="panel-title">
+														<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+															Beamer Talks
+														</a>
+													</h4>
+												</div>
+												<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+													<div class="panel-body">
+														<ul>
+															<li style="padding-bottom: 5px;">
+																A Glimpse into the asymptotics of Polynomial identities<br/>
+																Conference Groups, Rings and the Yang-Baxter equation, Spa, Belgium, June 20, 2017<br/>
+																<a href="http://homepages.vub.ac.be/~geofjans/talk%20Geoffrey%20Janssens%20Spa.pdf" target="_blank">download (pdf)</a>
+															</li>
+															<li style="padding-bottom: 5px;">
+																A reduction theorem for Tau-Rigid Modules<br/>
+																ICRA, Syracuse university, US, August 15, 2016<br/>
+																<a href="http://homepages.vub.ac.be/~geofjans/talk%20Geoffrey%20Janssens%20ICRA.pdf" target="_blank">download (pdf)</a>
+															</li>
+															<li style="padding-bottom: 5px;">
+																Identities of Algebras and Group and their Asymptotic behaviour<br/>
+																BeNeLux conference, Univ. of Amsterdam, Netherlands, March 23, 2016<br/>
+																<a href="http://homepages.vub.ac.be/~geofjans/talk%20phd%20prize%20Janssens%20G.pdf" target="_blank">download (pdf)</a>
+															</li>
+															<li style="padding-bottom: 5px;">
+																PI-exponent and Structure of Lie algebra with an Algebra acting<br/>
+																Conference, Bulgarian Academy of Sciences, Sofia, July 16, 2015<br/>
+																<a href="http://homepages.vub.ac.be/~geofjans/talk%20Sofia%20Geof%20Janssens.pdf" target="_blank">download (pdf)</a>
+															</li>
+															<li style="padding-bottom: 5px;">
+																ZS_n-modules and polynomial identities with integer coëfficients<br/>
+																Conference, Brock University, Canada, July 29, 2014<br/>
+																<a href="http://homepages.vub.ac.be/~geofjans/talk%20Geof%20Jans%20Brock%20Univ.pdf" target="_blank">download (pdf)</a>
+															</li>
+															<li style="padding-bottom: 5px;">
+																Primitive central idempotens of rational group algebras<br/>
+																Conference, Canada, August 17, 2013<br/>
+																<a href="http://homepages.vub.ac.be/~geofjans/Beamer-talk-Geoffrey-AAC-2012-2.pdf" target="_blank">download (pdf)</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+						
+					<section class="colorlib-education" data-section="teaching_2019_2020">
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<h3> 
+									Ring- en Moduultheorie
+								</h3>
+								<p>
+								<ul>
+								<li> Laatste versie (15-11-19) van de syllabus: zie <a target="_blank" href="ring_en_moduultheorie.pdf">hier</a>. </li>
+								<li> Theorie lessen: di 13-16u in F5.203 (week 14) & wo 10-12u in K2.auditorium 4 (weken 4-5,7,9,11-13) en in F5.204 (weken 3,8) </li>
+								<li> Oefeningen lessen: wo 10-12u in K2.auditorium 4 (weken 6,14) & do 15-17u </li>
+								<li> De presentaties vinden plaats op dinsdag 18 december van 13-16u!</li>
+								<li> <i> Het examen:</i> 20-01 om 13u in lokaal E0.05 om (theorie) & 20-01 om 9u in lokaal D2.16 (oefeningen)</li>
+								</ul>
+								</p>
+							</div>
+							<p style="padding-top: 0.1px; padding-bottom: 0px">
+								<hr class="textcenter" style="width: 60%;"/>
+							</p>
+							<div class="row">
+								<h3>Lineaire algebra: stelsels, matrices en afbeeldingen</h3>
+								<p>
+								<ul>
+								<li> Syllabus volume 1:  zie <a target="_blank" href="cursus vol I.pdf">hier</a>. </li>
+								<li> Syllabus volume 2:  zie <a target="_blank" href="cursus vol II.pdf">hier</a>. </li>
+								<li> Voor voorbeelden van examens zie hompeage van Prof. Caenepeel: <a target="_blank" href="http://homepages.vub.ac.be/~scaenepe/homepage.html">http://homepages.vub.ac.be/~scaenepe/homepage.html</a></li>
+								<li> Lijst met opgaves: <a target="_blank" href="sessie1.pdf">Reeks 1&2</a>, <a target="_blank" href="sessie2.pdf">Reeks 3&4</a>,
+								<a target="_blank" href="sessie3.pdf">Reeks 4&5</a>, <a target="_blank" href="sessie4.pdf">Reeks 5&6&7</a>, 
+								<a target="_blank" href="sessie5.pdf">Reeks 8</a>, <a target="_blank" href="sessie6.pdf">Reeks 9</a>,
+								<a target="_blank" href="sessie7.pdf">Reeks 10&11</a>, <a target="_blank" href="sessie8.pdf">Reeks 12&13</a>,
+								<a target="_blank" href="sessie9.pdf">Reeks 14&15</a>.</li>
+								<li> Beetje uitleg over hoe simultaan te diagonaliseren: <a target="_blank" href="simultaan diagonaliseren - hoe.pdf">hier</a> </li>
+								<li> Oplossing van een (correct) variant van oef 12.6 over simultaan diagonaliseren:  <a target="_blank" href="variant op oef 12.6.pdf">hier</a> </li>
+								<li> Oplossing oef 15.8 (een isometrie waarvan rotatie-as en spiegelvlak niet uitgelegd staan in de theorie): <a target="_blank" href="oef 15.8..pdf">hier</a> </li>
+								</ul>
+								
+								</p>
+							
+					</section>
+					
+					<p style="padding-top: 0.1px; padding-bottom: 0px">
+								<hr class="textcenter" style="width: 60%;"/>
+							</p>
+					
+					
+					<section class="colorlib-education" data-section="teaching_2014_2018">
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="timeline-centered">
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-2">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Inleiding Groepen Theorie</a> 
+														<span>2016 - 2017</span>
+													</h2>
+													<p>
+														1st Bachelor Mathematics + 2nd BAC Fysics
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-2">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Lineaire Algebra</a> 
+														<span>2016 - 2017</span>
+													</h2>
+													<p>
+														1st Bachelor Computer sciences + clinics 
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-2">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Inleiding Groepen Theorie</a> 
+														<span>2015 - 2016</span>
+													</h2>
+													<p>
+														1st Bachelor Mathematics + 2nd BAC Fysics
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-2">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Lineaire Algebra</a> 
+														<span>2015 - 2016</span>
+													</h2>
+													<p>
+														1st Bachelor Computer sciences + clinics
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-3">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Inleiding Groepen Theorie</a> 
+														<span>2014 - 2015</span>
+													</h2>
+													<p>
+														1st Bachelor Mathematics + 2nd BAC Fysics
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-3">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Lineaire Algebra</a> 
+														<span>2014 - 2015</span>
+													</h2>
+													<p>
+														1st Bachelor Computer sciences + clinics 
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-3">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Wiskunde voor Computerwetenschappen</a> 
+														<span>2014 - 2015</span>
+													</h2>
+													<p>
+														clinics
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-none">
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					
+					<p style="padding-top: 0.1px; padding-bottom: 0px">
+								<hr class="textcenter" style="width: 60%;"/>
+							</p>
+					
+						<section class="colorlib-education" data-section="teaching_2012_2014">
+						<div class="colorlib-narrow-content">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="timeline-centered">
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-4">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Analyse: Afleiden, integreren en numerieke software</a> 
+														<span>2013 - 2014</span>
+													</h2>
+													<p>
+														1st Bachelor Mathematics + Fysics<br/>
+														<a href="http://homepages.vub.ac.be/~geofjans/extra%20oefeningen%20Analyse.pdf" target="_blank">Exercices</a>
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-4">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Wiskunde voor Computerwetenschappen</a> 
+														<span>2013 - 2014</span>
+													</h2>
+													<p>
+														2nd Bachelor Computer Sciences + verkort programma Computer Sciences + clinics 
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-4">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Lineaire Algebra</a> 
+														<span>2013 - 2014</span>
+													</h2>
+													<p>
+														1st Bachelor Chemistry and Computer sciences + verkort proramma Computer Sciences 
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-5">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Analyse: Afleiden, integreren en numerieke software</a> 
+														<span>2012 - 2013</span>
+													</h2>
+													<p>
+														1st Bachelor Mathematics + Fysics
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-5">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Wiskunde voor Computerwetenschappen</a> 
+														<span>2012 - 2013</span>
+													</h2>
+													<p>
+														2nd Bachelor Computer Sciences + verkort programma Computer Sciences +clinics 
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-5">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Affiene en Projectieve meetkunde</a> 
+														<span>2012 - 2013</span>
+													</h2>
+													<p>
+														2nd Bachelor Mathematics 
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-5">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Aanvullingen Lineaire Algebra</a> 
+														<span>2012 - 2013</span>
+													</h2>
+													<p>
+														1st Bachelor Mathematics 
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry animate-box">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-5">
+													<i class="icon-pen2"></i>
+												</div>
+												<div class="timeline-label">
+													<h2>
+														<a href="#">WPO Lineaire Algebra</a> 
+														<span>2012 - 2013</span>
+													</h2>
+													<p>
+														1st Bachelor Computer sciences + verkort proramma Computer Sciences 
+													</p>
+												</div>
+											</div>
+										</article>
+										<article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+											<div class="timeline-entry-inner">
+												<div class="timeline-icon color-none">
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+		
+					<section class="colorlib-blog" data-section="co-authors">
+						<div class="colorlib-narrow-content">
+							
+							<div class="row">	
+								<span class="heading-meta">
+									<center>
+										<i>“If you have an apple and I have an apple and we exchange these apples then you and I will 
+										still each have one apple. But if you have an idea and I have an idea and we exchange these ideas, then each of us will have two ideas.” 
+										G.B. Shaw </i>
+									</center>
+								</span>	
+								
+								
+								<p style="padding-top: 0.1px; padding-bottom: 0px">
+								<hr class="textcenter" style="width: 60%;"/>
+							</p>
+								
+									<div class="row">
+
+								<p>
+									The quote above is a famous one, but nevertheless I truly find the process of collaboration 
+									fascinating and invaluable and so I fully adhere to Shaw's view. Another famous quote, that complements, is one of Hilbert: 
+									<i> "Mathematics knows no races or geographic boundaries; for mathematics, the cultural world is one country".</i> I was especially glad 
+									to discover that my <a target="_blank" href="Mon math genealogy.pdf">'mathematics genealogy'</a> reflects this (enjoy going through math history! :))
+									
+									
+								 
+								</p>
+							</div>
+							
+								
+								<h2 class="colorlib-heading animate-box">Co-authors and Current Collaborators: </h2>
+							</div>
+
+							<div class="row">
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="https://www.gtiit.edu.cn/upload/7b22bd48-6df4-4b45-8f33-d7b771019036.jpg" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>Israel Institut of Technology</small>
+											</span>
+											<h3>
+												<a href="http://www2.math.technion.ac.il/~aljadeff/" target="_blank">Eli Aljadeff</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="https://we.vub.ac.be/sites/default/files/styles/researcher-detail/public/default_images/basic-profile-picture_5.jpg" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>Vrije Universiteit Brussel</small>
+											</span>
+											<h3>
+												<a href="http://homepages.vub.ac.be/~abachle/" target="_blank">Andreas Bächle</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="https://c5.rgstatic.net/m/437738464651637/images/template/default/profile/profile_default_l.jpg" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+											<small>Fundan University</small>
+											</span>
+											<h3>
+												<a href="https://www.researchgate.net/profile/Frederik_Caenepeel" target="_blank">Frederik Caenepeel</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+																
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="https://we.vub.ac.be/sites/default/files/styles/researcher-detail/public/images/gordienko.jpg" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>Moscow State Technical University of Civil Aviation</small>
+											</span>
+											<h3>
+												<a href="https://we.vub.ac.be/nl/alexey-gordienko" target="_blank">Alexey Gordienko</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="https://s.gravatar.com/avatar/eacc672c8c0c44e037dd39731a58af43?s=200%27)" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>City, University of London</small>
+											</span>
+											<h3>
+												<a href="https://feisele.github.io/" target="_blank">Florian Eisele</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="http://homepages.vub.ac.be/~efjesper/jespers.jpg" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>Vrije Universiteit Brussel</small>
+											</span>
+											<h3>
+												<a href="http://homepages.vub.ac.be/~efjesper/" target="_blank">Eric Jespers</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="https://lh4.googleusercontent.com/mpsJDiuDHBMmk0xrv6wGGt1cIIr3uhvm2Qep1RgHrz01ZktpVmp0Dtuv2PMd7s0AsEarK7f8iMkj1qXJbd27lxqYHKBAyJ5Yxl9Pho-8TDYn8WY6k_T-2_XpRVDL1xYWCw=w1280" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small> University of Ljubljana</small>
+											</span>
+											<h3>
+												<a href="https://sites.google.com/site/urbanjezernik/" target="_blank">Urban Jezernik</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="https://webusers.imj-prg.fr/~bernhard.keller/Keller2006.jpg" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>Université de Paris - Paris 7 Diderot</small>
+											</span>
+											<h3>
+												<a href="https://webusers.imj-prg.fr/~bernhard.keller/" target="_blank">Bernhard Keller</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="http://homepages.vub.ac.be/~akiefer/images/Ann%20Kiefer.png" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>University of Luxembourg</small>
+											</span>
+											<h3>
+												<a href="http://homepages.vub.ac.be/~akiefer/" target="_blank">Ann Kiefer</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="https://c5.rgstatic.net/m/437738464651637/images/template/default/profile/profile_default_l.jpg" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>Justus-Liebig-Univeristät Giessen</small>
+											</span>
+											<h3>
+												<a href="https://www.researchgate.net/profile/Yaakov_Karasik" target="_blank">Yaakov Karasik</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="https://epsrc.ukri.org/epsrc/cache/file/7A52C87E-EC1D-4323-B4CCFAE8DD1472F7_featuretwocolumnwide.jpg" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>Vrije Universiteit Brussel</small>
+											</span>
+											<h3>
+												<a href="https://www.theoraedschelders.com/" target="_blank">Theo Raedschelders </a>
+											</h3>
+										</div>
+									</div>
+								</div>
+									
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="https://we.vub.ac.be/sites/default/files/styles/researcher-detail/public/default_images/basic-profile-picture_5.jpg" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>ORT Braude College</small>
+											</span>
+											<h3>
+												<a href="https://www.researchgate.net/profile/Ofir_Schnabel" target="_blank">Ofir Schnabel</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="http://homepages.vub.ac.be/~dtemmerm/fotos/foto.jpg" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small>Universiteit Hasselt</small>
+											</span>
+											<h3>
+												<a href="http://homepages.vub.ac.be/~dtemmerm/" target="_blank">Doryan Temmerman</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="blog-entry">
+										<a href="blog.html" class="blog-img">
+											<img src="" 
+												 class="img-responsive"
+												 style="min-height: 210px;">
+										</a>
+										<div class="desc">
+											<span>
+												<small></small>
+											</span>
+											<h3>
+												<a href="" target="_blank"></a>
+											</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					
+			
+				</div>
+				<!-- end:colorlib-main -->
+			</div>
+			<!-- end:container-wrap -->
+		</div>
+		<!-- end:colorlib-page -->
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Flexslider -->
+		<script src="js/jquery.flexslider-min.js"></script>
+		<!-- Owl carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Counters -->
+		<script src="js/jquery.countTo.js"></script>
+		<!-- MAIN JS -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
+
